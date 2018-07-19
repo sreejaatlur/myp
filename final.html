@@ -1,0 +1,175 @@
+
+<html>
+<head>
+ <style>
+        table{
+              border-collapse:collapse;}
+     td.one{
+	     font-size: 20px;
+	     font-weight: bold;
+	 text-align: right;
+	 }
+     td.two{
+            text-align: left;
+            font-size: 20px;
+           } 
+     .button
+          {
+            text-align: center;
+            font-size: 24px; 
+            margin: 4px,2px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px,40px;
+            width: 250px;    
+            border-radius: 12px;
+           }
+       tr:nth-child(even) {
+                          background-color: #f2f2f2;}
+      
+      input[type=text]:focus
+      {
+       background-color: #3CBC8D;
+       color:white;
+       font-size: 24px;
+
+}
+         
+
+ </style>
+  <title>DRIVING LICENSE</title>
+</head>
+<body>
+        <form action="f.php"  method="post">     
+         <h1 align="center"><u>DRIVING LICENSE FORM</u></h1>
+            <br>
+            <br>
+    <table width="1000px" cellpadding="10" align='center' border="1" >
+                <tr>
+                 <td class="one" >Name of the appllicant:</td>
+                 <td>  <input type="text" size="60"name="aname">  </td>
+                </tr>    
+
+                 <tr> 
+                   <td class="one">Age:</td>
+                   <td><input type="number" MAXLENGTH="2" name="bname"></td>
+                 </tr>
+        <tr>
+         <td class="one">Date of birth:</td>
+         <td><input type="number" name="cname"></td>
+       </tr>
+
+       <tr>
+        <td class="one" >gender:</td>
+        <td><input type="radio" name="dname" value='male'>male
+            <input type="radio" name="dname" value='female'>female
+         </td>
+      </tr>
+
+      <tr>
+	<td class="one">Mobile number:</td>
+	<td><input type="number" MAXLENGTH='10' name='sname'></td>
+     </tr>
+
+      <tr>
+       <td class="one">Type of driving license:</td>
+       <td>
+	 <select name='ename'>
+          <option value='0'>SELECT YOUR VEHICLE TYPE</option>
+          <option value='2-WHEELER VEHICLE'>2-WHEELER</option>
+          <option value='4-WHEELER VEHICLE'>4-WHEELER</option>
+          <option value='10-TIRES LORRY'>10-TIRES LORRY</option>
+       </select>
+    </td>
+       
+     </tr>
+ 
+     <tr>
+      <td class="one">Health and fitness: </td>
+      <td><input type="text" name="fname"> </td>    </tr>
+    </tr>
+
+    <tr>
+       <td class="one">Contact address:</td>
+       <td><input type="text" size="60" name="gname">
+    </tr> 
+  
+     <tr>
+       <td class="one">City:</td> 
+        <td>
+	 <select name='hname'>
+          <option value='0'>SELECT YOUR CITY</option>
+          <option value='GUNTUR'>GUNTUR</option>
+          <option value='WARANGAL'> WARANGAL</option>
+          <option value='GUDIVADA'>GUDIVADA</option>
+       </select>
+    </td>
+   </tr>
+</table>
+<p><b><font color="red"><h3>To register successfully answer the following questions?</h3></font></b><p>
+   
+
+
+<table border="1" width="1100px" align="center" cellspacing="6" bgcolor='lightblue'>
+	
+    <tr>
+       <td class="two">First time appllicant:</td>
+        <td><input type="radio" value='yes' name="iname">yes
+            <input type="radio" value='no' name="iname">no
+        </td>
+    </tr>
+
+
+                                                  
+      <tr>
+        <td class="two">1. Do you have glasses or lenses when driving?</td>
+        <td><input type="radio" name="jname" value='yes'>yes
+            <input type="radio" name="jname" value='no'>no
+        </td>
+     </tr>                
+                                                                        
+  <tr>
+    <td class="two" colspan="1">
+      2.  Do you have have any physical disabilites that may require special adaptations to be made on the vehicle you might use?</td>
+       <td><input type="radio" name="kname" value='yes'>yes
+           <input type="radio" name="kname" value='no'>no
+    </td>
+ </tr>  
+
+   <tr>
+        <td class="two">3. Do you suffer from any serious disease?</td>
+        <td><input type="radio" name="lname" value='yes'>yes
+            <input type="radio" name="lname" value='no'>no
+        </td>
+   </tr>
+    
+   <tr>
+     <td class="two">4.  Are you on any prescription drugs?</td>
+     <td><input type="radio" name="mname" value='yes'>yes
+         <input type="radio" name="mname" value='no'>no
+     </td>
+   </tr>
+
+   <tr>
+    <td class="two" >5.Do you use hearing aids?</td>
+    <td><input type="radio" name="nname" value='yes'>yes
+        <input type="radio" name="nname" value='no'>no</td>
+   </tr>
+
+  <tr>
+    <td class="two" >6. Have you ever been dependent on alcohol?</td>
+    <td><input type="radio" name="oname" value='yes'>yes
+       <input type="radio" name="oname" value='no'>no
+    </td>
+ </tr>
+</table>
+</br>
+</br>
+</br>
+
+<input type="submit"  align='right'class='button' value="submit">
+
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+{"basics":{
+  "image":"sr.jpg",
+  "name":"atlurisreeja",
+  "phonenumber":"+91-4356788876",
+  "email":"atlurisreeja@gmail.com",
+  "address":" address:srkr engineering college,bhimavaram.",
+  "adr":"Address"
+},
+"objec":{
+    
+  "info":"thdgf hvvgn  afsxhnvcdfh bvvvfzhnvvvZB."
+},
+"educ":[
+
+  {
+
+"degree":"BTECH" ,
+"institute":"SRKR ENGG COLLEGE",
+"duration":"2017-2021",
+"branch":"Information Technology"
+},
+{
+  "degree":"INTERMEDIATE" ,
+  "institute":"BHASHYAM",
+  "duration":"2015-2017"
+
+},
+{
+"degree":"10 TH STATNDARD",
+"institute":"BHASHYAM",
+"duration":"2014-2015"
+}
+],
+"skills":[
+
+  {
+
+"title":"languages" ,
+"data":["C","C++","JAVA","RUBY"]
+},
+{
+
+  "title":"DATA BASE" ,
+  "data":["sql","mysql","oracle"]
+
+
+},
+{
+  "title":"OPERATING SYSTEMS" ,
+  "data":["windows","ubuntu","linux"]
+
+}
+],
+"ar":{
+
+  "a":"*Succesfully completed ardino project",
+  "b":"*Lead a key role in cisco networking academy",
+  "c":"*Enrolled in yes+ course"
+}
+}
